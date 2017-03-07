@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 
 /**
- * @Description: 测试bean范围，设置为prototype，每次请求都会有新的bean
+ * @Description: 测试bean作用范围，设置为prototype，每次请求都会有新的bean
  * @Author: ZhOu
  * @Date: 2017/3/6
  */
