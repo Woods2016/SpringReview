@@ -26,7 +26,7 @@ import java.io.IOException;
 public class ELConfig {
 
     @Value("123")
-    private String id;
+    private Integer id;
 
     //系统级参数
     @Value("#{systemProperties['os.name']}")
