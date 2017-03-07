@@ -15,13 +15,13 @@ import java.io.IOException;
 
 
 /**
- * @Description:
+ * @Description: 测试注解和赋值
  * @Author: ZhOu
  * @Date: 2017/3/6
  */
 
 @Configuration
-@ComponentScan("com.test.el")
+@ComponentScan("com.test01.el")
 @PropertySource("classpath:/el.properties")
 public class ELConfig {
 
@@ -43,6 +43,7 @@ public class ELConfig {
     private String address;
 
 
+    //配置文件字段
     @Value("${user1.name}")
     private String name;
 
@@ -50,9 +51,11 @@ public class ELConfig {
     @Value("${user1.gender}")
     private String gender;
 
+    //环境变量
     @Autowired
     private Environment environment;
 
+    //资源
     @Value("http://www.baidu.com")
     private Resource resource;
 

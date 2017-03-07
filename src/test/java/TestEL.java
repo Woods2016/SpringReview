@@ -4,7 +4,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import java.io.IOException;
 
 /**
- * @Description:
+ * @Description: 测试EL表达式
  * @Author: ZhOu
  * @Date: 2017/3/6
  */

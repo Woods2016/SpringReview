@@ -1,10 +1,10 @@
-import com.test02.initanddestory.BeanWayService;
-import com.test02.initanddestory.InitConfig;
-import com.test02.initanddestory.JsrWayService;
+import com.test02.init.BeanWayService;
+import com.test02.init.InitConfig;
+import com.test02.init.JsrWayService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
- * @Description:
+ * @Description: 测试bean的init和destroy
  * @Author: ZhOu
  * @Date: 2017/3/6
  */

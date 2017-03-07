@@ -1,6 +1,6 @@
-import com.bean.scope.DemoService1;
-import com.bean.scope.DemoService2;
-import com.bean.scope.ScopeConfig;
+import com.test03.scope.DemoService1;
+import com.test03.scope.DemoService2;
+import com.test03.scope.ScopeConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
