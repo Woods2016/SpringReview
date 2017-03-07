@@ -20,7 +20,7 @@ public class BeanWayService {
         System.out.println("BeanWayService构造函数");
     }
 
-    public void destory(){
+    public void destroy(){
         System.out.println("BeanWayService销毁");
     }
 }
